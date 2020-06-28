@@ -30,6 +30,24 @@
 <p>Detail about Recipe </p>
 <img src="/Assets.xcassets/ss/File14.png"  width="250" >
 
+<b>  Important Notes:  </b>
+
+Please do not forget to install these pod files.
+
+pod 'Firebase/Analytics'
+
+pod 'Firebase/Auth'
+
+pod 'Firebase/Core'
+
+pod 'Firebase/Firestore'
+
+pod 'Firebase/Storage'
+
+pod 'SDWebImage'
+
+pod 'TTGTagCollectionView'
+
 
 
 
