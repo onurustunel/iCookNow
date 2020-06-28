@@ -3,25 +3,65 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		770DE3E1249C129700CC0390 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 770DE3E0249C129700CC0390 /* GoogleService-Info.plist */; };
+		77263511248D558E006E0BB4 /* discover2CVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77263510248D558E006E0BB4 /* discover2CVC.swift */; };
+		77263513248D55A9006E0BB4 /* discover3CVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77263512248D55A9006E0BB4 /* discover3CVC.swift */; };
+		77263515248D69AA006E0BB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77263514248D69A7006E0BB4 /* Assets.xcassets */; };
+		77263519248E2BAF006E0BB4 /* categories1CVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77263518248E2BAF006E0BB4 /* categories1CVC.swift */; };
+		7726351B248E2BC0006E0BB4 /* categories2CVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7726351A248E2BC0006E0BB4 /* categories2CVC.swift */; };
+		7726351D248E2BDB006E0BB4 /* categories3CVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7726351C248E2BDB006E0BB4 /* categories3CVC.swift */; };
+		7726351F248E2BED006E0BB4 /* categories4CVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7726351E248E2BED006E0BB4 /* categories4CVC.swift */; };
+		777221C92498C79400B7D516 /* recipeOfDayCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777221C82498C79400B7D516 /* recipeOfDayCVC.swift */; };
+		777221CF2498F1D300B7D516 /* categoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777221CE2498F1D300B7D516 /* categoriesVC.swift */; };
+		777221D12498F27900B7D516 /* categoriesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777221D02498F27900B7D516 /* categoriesTVC.swift */; };
+		777221D3249904B300B7D516 /* recipeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777221D2249904B300B7D516 /* recipeVC.swift */; };
 		77799511248D2E97006EEE20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77799510248D2E97006EEE20 /* AppDelegate.swift */; };
 		77799513248D2E97006EEE20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77799512248D2E97006EEE20 /* ViewController.swift */; };
 		77799516248D2E97006EEE20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77799514248D2E97006EEE20 /* Main.storyboard */; };
-		77799518248D2E99006EEE20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77799517248D2E99006EEE20 /* Assets.xcassets */; };
 		7779951B248D2E99006EEE20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77799519248D2E99006EEE20 /* LaunchScreen.storyboard */; };
+		77799524248D3EF4006EEE20 /* discover1CVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77799523248D3EF4006EEE20 /* discover1CVC.swift */; };
+		778810B5249951CC00C0FD18 /* uploadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778810B4249951CC00C0FD18 /* uploadVC.swift */; };
+		778810B824995C7300C0FD18 /* upload2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778810B724995C7300C0FD18 /* upload2VC.swift */; };
+		778810BA24995C8100C0FD18 /* upload3VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778810B924995C8100C0FD18 /* upload3VC.swift */; };
+		778810BC24995C9700C0FD18 /* upload4VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778810BB24995C9700C0FD18 /* upload4VC.swift */; };
+		778810BE24995CA400C0FD18 /* upload5VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778810BD24995CA400C0FD18 /* upload5VC.swift */; };
+		77993618249A6AEF00DB3AC0 /* upload6VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77993617249A6AEF00DB3AC0 /* upload6VC.swift */; };
+		DE4DFD928E2FCBB9EF747D5D /* Pods_iCookNow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2E1F75FD563F6821E045B1D /* Pods_iCookNow.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5240B696DE3F71337526E9FA /* Pods-iCookNow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCookNow.release.xcconfig"; path = "Target Support Files/Pods-iCookNow/Pods-iCookNow.release.xcconfig"; sourceTree = "<group>"; };
+		770DE3E0249C129700CC0390 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		77263510248D558E006E0BB4 /* discover2CVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = discover2CVC.swift; sourceTree = "<group>"; };
+		77263512248D55A9006E0BB4 /* discover3CVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = discover3CVC.swift; sourceTree = "<group>"; };
+		77263514248D69A7006E0BB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77263518248E2BAF006E0BB4 /* categories1CVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = categories1CVC.swift; sourceTree = "<group>"; };
+		7726351A248E2BC0006E0BB4 /* categories2CVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = categories2CVC.swift; sourceTree = "<group>"; };
+		7726351C248E2BDB006E0BB4 /* categories3CVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = categories3CVC.swift; sourceTree = "<group>"; };
+		7726351E248E2BED006E0BB4 /* categories4CVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = categories4CVC.swift; sourceTree = "<group>"; };
+		777221C82498C79400B7D516 /* recipeOfDayCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recipeOfDayCVC.swift; sourceTree = "<group>"; };
+		777221CE2498F1D300B7D516 /* categoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = categoriesVC.swift; sourceTree = "<group>"; };
+		777221D02498F27900B7D516 /* categoriesTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = categoriesTVC.swift; sourceTree = "<group>"; };
+		777221D2249904B300B7D516 /* recipeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recipeVC.swift; sourceTree = "<group>"; };
 		7779950D248D2E97006EEE20 /* iCookNow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCookNow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77799510248D2E97006EEE20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77799512248D2E97006EEE20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		77799515248D2E97006EEE20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		77799517248D2E99006EEE20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7779951A248D2E99006EEE20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7779951C248D2E99006EEE20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77799523248D3EF4006EEE20 /* discover1CVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = discover1CVC.swift; sourceTree = "<group>"; };
+		778810B4249951CC00C0FD18 /* uploadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uploadVC.swift; sourceTree = "<group>"; };
+		778810B724995C7300C0FD18 /* upload2VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = upload2VC.swift; sourceTree = "<group>"; };
+		778810B924995C8100C0FD18 /* upload3VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = upload3VC.swift; sourceTree = "<group>"; };
+		778810BB24995C9700C0FD18 /* upload4VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = upload4VC.swift; sourceTree = "<group>"; };
+		778810BD24995CA400C0FD18 /* upload5VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = upload5VC.swift; sourceTree = "<group>"; };
+		77993617249A6AEF00DB3AC0 /* upload6VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = upload6VC.swift; sourceTree = "<group>"; };
+		9BA591C1E19798A71F62222E /* Pods-iCookNow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCookNow.debug.xcconfig"; path = "Target Support Files/Pods-iCookNow/Pods-iCookNow.debug.xcconfig"; sourceTree = "<group>"; };
+		E2E1F75FD563F6821E045B1D /* Pods_iCookNow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iCookNow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +69,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE4DFD928E2FCBB9EF747D5D /* Pods_iCookNow.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57100320F48DFF27FBCDB45C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9BA591C1E19798A71F62222E /* Pods-iCookNow.debug.xcconfig */,
+				5240B696DE3F71337526E9FA /* Pods-iCookNow.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		77799504248D2E96006EEE20 = {
 			isa = PBXGroup;
 			children = (
 				7779950F248D2E97006EEE20 /* iCookNow */,
 				7779950E248D2E97006EEE20 /* Products */,
+				77263514248D69A7006E0BB4 /* Assets.xcassets */,
+				57100320F48DFF27FBCDB45C /* Pods */,
+				AED188EB562A02F79B9504F1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +107,63 @@
 		7779950F248D2E97006EEE20 /* iCookNow */ = {
 			isa = PBXGroup;
 			children = (
-				77799510248D2E97006EEE20 /* AppDelegate.swift */,
-				77799512248D2E97006EEE20 /* ViewController.swift */,
+				77BCD3D324A609F8000EAC76 /* Views */,
+				77799522248D3EB5006EEE20 /* CollectionViewCell */,
+				778810B62499563F00C0FD18 /* UploadVC */,
 				77799514248D2E97006EEE20 /* Main.storyboard */,
-				77799517248D2E99006EEE20 /* Assets.xcassets */,
 				77799519248D2E99006EEE20 /* LaunchScreen.storyboard */,
 				7779951C248D2E99006EEE20 /* Info.plist */,
+				770DE3E0249C129700CC0390 /* GoogleService-Info.plist */,
 			);
 			path = iCookNow;
+			sourceTree = "<group>";
+		};
+		77799522248D3EB5006EEE20 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				77799523248D3EF4006EEE20 /* discover1CVC.swift */,
+				77263510248D558E006E0BB4 /* discover2CVC.swift */,
+				77263512248D55A9006E0BB4 /* discover3CVC.swift */,
+				77263518248E2BAF006E0BB4 /* categories1CVC.swift */,
+				7726351A248E2BC0006E0BB4 /* categories2CVC.swift */,
+				7726351C248E2BDB006E0BB4 /* categories3CVC.swift */,
+				7726351E248E2BED006E0BB4 /* categories4CVC.swift */,
+				777221C82498C79400B7D516 /* recipeOfDayCVC.swift */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		778810B62499563F00C0FD18 /* UploadVC */ = {
+			isa = PBXGroup;
+			children = (
+				778810B4249951CC00C0FD18 /* uploadVC.swift */,
+				778810B724995C7300C0FD18 /* upload2VC.swift */,
+				778810B924995C8100C0FD18 /* upload3VC.swift */,
+				778810BB24995C9700C0FD18 /* upload4VC.swift */,
+				778810BD24995CA400C0FD18 /* upload5VC.swift */,
+				77993617249A6AEF00DB3AC0 /* upload6VC.swift */,
+			);
+			path = UploadVC;
+			sourceTree = "<group>";
+		};
+		77BCD3D324A609F8000EAC76 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				777221CE2498F1D300B7D516 /* categoriesVC.swift */,
+				77799510248D2E97006EEE20 /* AppDelegate.swift */,
+				777221D2249904B300B7D516 /* recipeVC.swift */,
+				777221D02498F27900B7D516 /* categoriesTVC.swift */,
+				77799512248D2E97006EEE20 /* ViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AED188EB562A02F79B9504F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2E1F75FD563F6821E045B1D /* Pods_iCookNow.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7779951F248D2E99006EEE20 /* Build configuration list for PBXNativeTarget "iCookNow" */;
 			buildPhases = (
+				D2EA4B6F419D0A91407B940A /* [CP] Check Pods Manifest.lock */,
 				77799509248D2E96006EEE20 /* Sources */,
 				7779950A248D2E96006EEE20 /* Frameworks */,
 				7779950B248D2E96006EEE20 /* Resources */,
+				84F088FE94EB33D5E524B052 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,12 +227,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				7779951B248D2E99006EEE20 /* LaunchScreen.storyboard in Resources */,
-				77799518248D2E99006EEE20 /* Assets.xcassets in Resources */,
+				77263515248D69AA006E0BB4 /* Assets.xcassets in Resources */,
 				77799516248D2E97006EEE20 /* Main.storyboard in Resources */,
+				770DE3E1249C129700CC0390 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		84F088FE94EB33D5E524B052 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iCookNow/Pods-iCookNow-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iCookNow/Pods-iCookNow-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iCookNow/Pods-iCookNow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2EA4B6F419D0A91407B940A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iCookNow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		77799509248D2E96006EEE20 /* Sources */ = {
@@ -136,7 +283,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				77799513248D2E97006EEE20 /* ViewController.swift in Sources */,
+				778810BE24995CA400C0FD18 /* upload5VC.swift in Sources */,
+				7726351F248E2BED006E0BB4 /* categories4CVC.swift in Sources */,
 				77799511248D2E97006EEE20 /* AppDelegate.swift in Sources */,
+				77263519248E2BAF006E0BB4 /* categories1CVC.swift in Sources */,
+				77263511248D558E006E0BB4 /* discover2CVC.swift in Sources */,
+				777221D12498F27900B7D516 /* categoriesTVC.swift in Sources */,
+				7726351D248E2BDB006E0BB4 /* categories3CVC.swift in Sources */,
+				778810B5249951CC00C0FD18 /* uploadVC.swift in Sources */,
+				777221C92498C79400B7D516 /* recipeOfDayCVC.swift in Sources */,
+				777221D3249904B300B7D516 /* recipeVC.swift in Sources */,
+				778810B824995C7300C0FD18 /* upload2VC.swift in Sources */,
+				778810BA24995C8100C0FD18 /* upload3VC.swift in Sources */,
+				777221CF2498F1D300B7D516 /* categoriesVC.swift in Sources */,
+				77263513248D55A9006E0BB4 /* discover3CVC.swift in Sources */,
+				77993618249A6AEF00DB3AC0 /* upload6VC.swift in Sources */,
+				77799524248D3EF4006EEE20 /* discover1CVC.swift in Sources */,
+				7726351B248E2BC0006E0BB4 /* categories2CVC.swift in Sources */,
+				778810BC24995C9700C0FD18 /* upload4VC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +444,7 @@
 		};
 		77799520248D2E99006EEE20 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BA591C1E19798A71F62222E /* Pods-iCookNow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +462,7 @@
 		};
 		77799521248D2E99006EEE20 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5240B696DE3F71337526E9FA /* Pods-iCookNow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
